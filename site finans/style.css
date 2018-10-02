@@ -1,0 +1,48 @@
+/*
+Author: Lucas Souza
+Date: 10/02/2018
+Version: 0.1
+*/
+:root {
+  --cor-texto-home: white;
+  --cor-text-site: black;
+}
+
+
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	color: var(--cor-text-site);
+	overflow-x: hidden;
+}
+
+
+/*==============Tipografia==================*/
+
+/*------HOME-------*/
+.logo{
+	margin-left: 5%;
+}
+
+.nav-menu{
+	margin-right: 10%;
+}
+
+/*==============Estialização==================*/
+
+/*------HOME-------*/
+
+header, .menucolor{
+	background-color: #ffc107;
+}
+
+.container-fluid{
+	color: var(--cor-texto-home);
+}
+
+.text-menu{
+	  font-weight: 300;
+}
